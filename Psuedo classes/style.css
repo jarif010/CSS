@@ -15,7 +15,11 @@ ul>li{font-weight: bold;}
 
 ul li:hover{color: #c9afaf;}
 
+ul li:nth-child(1){background-color: #2f435b;}
+ul li:nth-child(2){background-color: #2e6c74;}
 ul li:nth-child(3){background-color: #2f435b;}
+ul li:nth-child(4){background-color: #2e6e74;}
+ul li:nth-child(5){background-color: #2f435b;}
 
 h1 + p {
     background-color: rgb(9, 237, 237);
@@ -23,6 +27,8 @@ h1 + p {
     border-radius: 5px;
 }
 p:not(:first-of-type) {text-decoration: underline;}
+
+p:first-of-type{text-decoration: wavy underline;}
 
 ul li::before{content: "🚀";}
 
