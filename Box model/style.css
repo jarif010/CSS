@@ -1,0 +1,14 @@
+.example1{
+    width: 200px;
+    background-color: rgba(255, 221, 0, 0.623);
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+.example2{
+    width: 200px;
+    background-color: rgb(254, 50, 19);
+    margin: 40px 20px;
+    border: 5px solid rgba(24, 202, 11, 0.588);
+    padding: 50px;
+}
